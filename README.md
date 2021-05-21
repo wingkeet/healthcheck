@@ -6,3 +6,4 @@ Healthcheck for thecleancoder.dev
 ### References
 - [Understanding Systemd Units and Unit Files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
 - [How to create systemd service unit in Linux](https://linuxconfig.org/how-to-create-systemd-service-unit-in-linux)
+- [Python Logging Basics](https://www.loggly.com/ultimate-guide/python-logging-basics/)
