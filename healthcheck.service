@@ -1,0 +1,14 @@
+[Unit]
+Description=Healthcheck for thecleancoder.dev
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=wingkeet
+Group=wingkeet
+WorkingDirectory=/home/wingkeet/test
+ExecStart=/home/wingkeet/test/healthcheck.sh
+
+[Install]
+WantedBy=multi-user.target
