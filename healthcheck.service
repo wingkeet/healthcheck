@@ -9,6 +9,8 @@ User=wingkeet
 Group=wingkeet
 WorkingDirectory=/home/wingkeet/python_work/healthcheck
 ExecStart=/home/wingkeet/python_work/healthcheck/healthcheck.sh
+Restart=on-failure
+RestartSec=3s
 
 [Install]
 WantedBy=multi-user.target
