@@ -2,6 +2,7 @@
 Healthcheck for thecleancoder.dev
 
 ### Installation
+```
 $ cd ~
 $ git clone https://github.com/wingkeet/healthcheck.git
 $ cd healthcheck
@@ -13,6 +14,7 @@ $ sudo cp healthcheck.service /etc/systemd/system
 $ sudo systemctl start healthcheck
 $ journalctl -f -u healthcheck
 $ sudo systemctl stop healthcheck
+```
 
 ![systemctl-status](screenshot.png)
 
