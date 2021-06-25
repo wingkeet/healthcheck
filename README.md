@@ -1,6 +1,19 @@
 # healthcheck
 Healthcheck for thecleancoder.dev
 
+### Installation
+$ cd ~
+$ git clone https://github.com/wingkeet/healthcheck.git
+$ cd healthcheck
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install requests
+$ deactivate
+$ sudo cp healthcheck.service /etc/systemd/system
+$ sudo systemctl start healthcheck
+$ journalctl -f -u healthcheck
+$ sudo systemctl stop healthcheck
+
 ![systemctl-status](screenshot.png)
 
 ### References
