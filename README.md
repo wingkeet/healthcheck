@@ -1,5 +1,4 @@
 # healthcheck
-Healthcheck for thecleancoder.dev
 
 ### Installation
 ```
