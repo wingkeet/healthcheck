@@ -5,9 +5,9 @@
 $ # Clone healthcheck repository
 $ cd ~
 $ git clone https://github.com/wingkeet/healthcheck.git
-$ cd healthcheck
 
 $ # Create Python virtual environment and install libraries
+$ cd healthcheck
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install requests
