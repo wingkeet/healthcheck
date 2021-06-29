@@ -10,6 +10,7 @@ $ source venv/bin/activate
 $ pip install requests
 $ deactivate
 $ sudo cp healthcheck.service /etc/systemd/system
+$ sudo systemctl daemon-reload
 $ sudo systemctl start healthcheck
 $ journalctl -f -u healthcheck
 $ sudo systemctl stop healthcheck
