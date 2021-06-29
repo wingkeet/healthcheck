@@ -25,8 +25,7 @@ $ sudo systemctl stop healthcheck
 
 ### How it works
 The information presented here was extracted from [Linux System
-Programming Techniques]
-(https://www.packtpub.com/product/linux-system-programming-techniques/9781789951288)
+Programming Techniques](https://www.packtpub.com/product/linux-system-programming-techniques/9781789951288)
 by Jack-Benny Persson and published by Packt.
 
 We create a **new-style daemon** for systemd. The old **forking** type is
