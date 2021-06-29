@@ -21,7 +21,7 @@ if __name__ == '__main__':
     loglevel = 0
 
     while True:
-        response = requests.get('https://thecleancoder.dev/healthcheck')
+        response = requests.get('https://thecleancoder.dev/healthchec')
         if response.status_code == 200:
             res = response.json()
             date = res['date']
@@ -29,5 +29,5 @@ if __name__ == '__main__':
             print(f'<{loglevel}>{date} rss={rss}', flush=True)
             loglevel = (loglevel + 1) % 8
         else:
-            print(f'<3>status_code = {response.status_code}')
+            print(f'<3>status_code = {response.status_code}', flush=True)
         time.sleep(5)
