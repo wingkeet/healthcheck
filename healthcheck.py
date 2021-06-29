@@ -21,7 +21,7 @@ if __name__ == '__main__':
     loglevel = 0
 
     while True:
-        response = requests.get('https://thecleancoder.dev/healthchec')
+        response = requests.get('https://thecleancoder.dev/healthcheck')
         if response.status_code == 200:
             res = response.json()
             date = res['date']
