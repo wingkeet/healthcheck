@@ -2,13 +2,18 @@
 
 ### Installation
 ```
+$ # Clone healthcheck repository
 $ cd ~
 $ git clone https://github.com/wingkeet/healthcheck.git
 $ cd healthcheck
+
+$ # Create Python virtual environment and install libraries
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install requests
 $ deactivate
+
+$ # Install daemon for systemd
 $ sudo cp healthcheck.service /etc/systemd/system
 $ sudo systemctl daemon-reload
 $ sudo systemctl start healthcheck
